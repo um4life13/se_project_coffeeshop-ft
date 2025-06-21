@@ -148,6 +148,11 @@
   margin-bottom: 215px;
 }
 
+.recipes__description {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer {
   padding: 60px 80px;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);

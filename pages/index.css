@@ -107,8 +107,8 @@
   line-height: 52px;
   color: #ffffff;
   max-width: 580px;
-  margin-top: 100px;
-  margin-left: 80px;
+  padding-top: 100px;
+  padding-left: 80px;
   margin-bottom: 24px;
 }
 
@@ -120,7 +120,7 @@
   line-height: 30px;
   color: #ffffff;
   max-width: 438px;
-  margin-left: 80px;
+  padding-left: 80px;
   margin-bottom: 80px;
   margin-top: 24px;
 }
@@ -145,7 +145,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
-  margin-bottom: 215px;
+  padding-bottom: 215px;
 }
 
 .recipes__description {

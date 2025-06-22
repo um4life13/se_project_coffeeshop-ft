@@ -91,6 +91,59 @@
            </li>
           </ul>
         </section>
+        <section class="reservation"></section>
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">
+                Name *
+                <input
+                  id="name"
+                  type="text"
+                  class="form__input"
+                  placeholder="Name Surname"
+                  required
+                />
+              </label>
+              <label for="number of guests" class="form__label">
+                Number of guests *
+                <input
+                  id="number of guests"
+                  type="number"
+                  class="form__input"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+              <label for="date & time" class="form__label">
+                Date & time *
+                <input
+                  id="date & time"
+                  type="datetime-local"
+                  class="form__input"
+                  required
+                />
+              </label><label for="email" class="form__label">
+                Your e-mail *
+                <input
+                id="email"
+                type="email"
+                class="form__input"
+                placeholder="email@email.com"
+                required
+                />
+              </label>
+            </fieldset>
+            <button type="submit" class="form__button">Book a table</button>
+            <label
+               for="terms-of-use"
+               class="form__label form__label_type_checkbox"
+               >
+              <input id="terms-of-use" type="chechbox" class="form__checkbox" />
+              I agree with the terms of use
+            </label>
+          </form>
+
       </main>
       <footer class="footer">
         <div class="footer__content">

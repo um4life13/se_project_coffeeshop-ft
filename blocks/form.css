@@ -70,3 +70,8 @@
   background-color: #1878dc;
   color: #fff;
 }
+
+  .form__button:hover {
+    background-color: #3f96f3;
+    transition: background-color 0.5s;
+  }
